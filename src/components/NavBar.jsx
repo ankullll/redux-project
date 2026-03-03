@@ -1,6 +1,6 @@
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
-export const NavBar = () => {
+export const Navbar = () => {
   return (
     <div className=" flex  justify-between items-center px-7 py-4  w-full bg-gray-900 ">
       <h2 className=" font-medium text-xl">Media Search</h2>
@@ -21,3 +21,6 @@ export const NavBar = () => {
     </div>
   );
 };
+
+
+export default Navbar
